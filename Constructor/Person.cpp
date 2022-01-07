@@ -15,7 +15,7 @@ Person::Person() : arbitrarynumber(0)
 {
     cout << "constructing " << firstname << " " << lastname << endl;
 }
-
+// Destructor
 Person::~Person()
 {
     cout << "desctructing " << firstname << " " << lastname << endl;
