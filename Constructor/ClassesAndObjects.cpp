@@ -8,6 +8,17 @@ using std::string;
 
 int main()
 {
+    Person n1("Name1", "Lastname1", 1);
+    Person n2("Name2", "Lastname2", 2);
+
+    if(!(n1 < n2))
+    {
+        cout << n1.GetNumber() << " is lower than" << n2.GetNumber() << endl;
+    } else 
+    {  
+        cout << "Not" << endl;
+    }
+
     Person p1("Jakub", "Lunga", 123);
     {
         Tweeter t1("Someone", "Else", 456, "@dontcare");
