@@ -14,6 +14,7 @@ public:
     ~Person(); // This is a desctructor
     std::string getName(); // Declaration of a function (not definition)
     int GetNumber() const {return arbitrarynumber;}
+    void SetNumber(int number) {arbitrarynumber = number;}
 // Creating logical operator for given class
 // 1. Operator takes by const reference
 bool operator<(Person const& p) const;
